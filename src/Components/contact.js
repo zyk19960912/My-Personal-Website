@@ -21,30 +21,37 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'30px', fontFamily: 'Anton', marginLeft:'100px'}}>
+                                    <ListItemContent style={{fontSize:'30px', fontFamily: 'Anton', marginLeft:'50px'}}>
                                         <i className="fa fa-phone-square fa-fw" aria-hidden="true" style={{marginRight: '50px'}}/>
                                         (858)214-4843
                                     </ListItemContent>
                                 </ListItem>
             
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'30px', fontFamily: 'Anton', marginLeft:'100px'}}>
+                                    <ListItemContent style={{fontSize:'30px', fontFamily: 'Anton', marginLeft:'50px'}}>
                                         <i className="fa fa-envelope-square fa-fw" aria-hidden="true" style={{marginRight: '50px'}}/>
                                         yaz003@eng.ucsd.edu
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'30px', fontFamily: 'Anton', marginLeft:'100px'}}>
+                                    <ListItemContent style={{fontSize:'30px', fontFamily: 'Anton', marginLeft:'50px'}}>
                                         <i className="fa fa-weixin fa-fw" aria-hidden="true" style={{marginRight: '50px'}}/>
                                         Youngkey
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
-                                    <ListItemContent style={{fontSize:'35px', fontFamily: 'Anton', marginLeft:'100px'}}>
-                                        <i className="fa fa-qq fa-fw" aria-hidden="true" style={{marginRight: '50px'}}/>
+                                    <ListItemContent style={{fontSize:'35px', fontFamily: 'Anton', marginLeft:'50px'}}>
+                                        <i className="fa fa-qq fa-fw" aria-hidden="true" style={{marginRight: '48px'}}/>
                                         834857848
+                                    </ListItemContent>
+                                </ListItem>
+
+                                <ListItem>
+                                    <ListItemContent style={{fontSize:'35px', fontFamily: 'Anton', marginLeft:'50px'}}>
+                                        <i className="fa fa-internet-explorer" aria-hidden="true" style={{marginRight: '40px'}}/>
+                                        www.youngkey96.com
                                     </ListItemContent>
                                 </ListItem>
                             </List>

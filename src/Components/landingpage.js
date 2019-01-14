@@ -4,11 +4,11 @@ import {Grid,Cell} from 'react-mdl';
 class LandingPage extends Component {
     render() {
         return(
-            <div style={{width: '100%', margin: 'auto'}}>
-                <video autoPlay loop muted playsInline className="myvideo" style={{height: "800px"}}>
+            <div style={{width: '100%', margin: 'auto 0'}}>
+                <video autoPlay loop muted playsInline className="myvideo" style={{height: "820px"}}>
                     <source src="/video/main.mp4" type="video/mp4"/>
                 </video>
-                <Grid className="landing-grid">
+                <Grid className="landing-grid" style={{padding:"48px 0"}}>
                     <Cell col={4}>
                         <img 
                             src="/img/chan.jpg"

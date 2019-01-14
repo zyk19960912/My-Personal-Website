@@ -42,8 +42,8 @@ class Resume extends Component {
                         <p>(858)214-4843</p>
                         <h5>Email</h5>
                         <p>yaz003@eng.ucsd.edu</p>
-                        <h5>Web</h5>
-                        <p>myweb.com</p>
+                        <h5>Personal Website</h5>
+                        <p>www.youngkey96.com</p>
                     </Cell>
 
                     <Cell className="resume-right-col" col={8}>
@@ -114,10 +114,6 @@ class Resume extends Component {
                             progress={40}
                         />
                         <Skills
-                            skill="MongoDB"
-                            progress={30}
-                        />
-                        <Skills
                             skill="Firebase"
                             progress={40}
                         />
@@ -128,6 +124,14 @@ class Resume extends Component {
                         <Skills
                             skill="Matlab"
                             progress={90}
+                        />
+                        <Skills
+                            skill="Linux"
+                            progress={80}
+                        />
+                        <Skills
+                            skill="Github"
+                            progress={80}
                         />
                         <Skills
                             skill="Verilog HDL"
